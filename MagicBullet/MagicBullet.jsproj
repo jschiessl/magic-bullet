@@ -152,7 +152,6 @@
     <Content Include="scripts\angular.min.js" />
     <Content Include="scripts\angular.min.js.map" />
     <Content Include="scripts\app\app.js" />
-    <Content Include="scripts\app\controllers.js" />
     <Content Include="scripts\errors.json" />
     <Content Include="scripts\i18n\angular-locale_af-na.js" />
     <Content Include="scripts\i18n\angular-locale_af-za.js" />
@@ -411,6 +410,7 @@
     <Content Include="templates\playlist.html" />
     <Content Include="templates\playlists.html" />
     <Content Include="templates\search.html" />
+    <TypeScriptCompile Include="scripts\app\controllers.ts" />
     <TypeScriptCompile Include="scripts\app\index.ts" />
     <Content Include="css\index.css" />
     <Content Include="packages.config" />
@@ -455,6 +455,15 @@
     <Content Include="res\screens\ios\screen-iphone-portrait-2x.png" />
     <Content Include="res\screens\windows8\splashscreen.png" />
     <Content Include="res\screens\wp8\screen-portrait.jpg" />
+    <TypeScriptCompile Include="scripts\app\services.ts" />
+    <TypeScriptCompile Include="scripts\typings\angularjs\angular-animate.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\angularjs\angular-cookies.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\angularjs\angular-mocks.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\angularjs\angular-resource.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\angularjs\angular-route.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\angularjs\angular-sanitize.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\angularjs\angular-scenario.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\angularjs\angular.d.ts" />
     <TypeScriptCompile Include="scripts\typings\cordova\cordova.d.ts" />
     <TypeScriptCompile Include="scripts\typings\cordova\plugins\BatteryStatus.d.ts" />
     <TypeScriptCompile Include="scripts\typings\cordova\plugins\Camera.d.ts" />
@@ -474,6 +483,7 @@
     <TypeScriptCompile Include="scripts\typings\cordova\plugins\Splashscreen.d.ts" />
     <TypeScriptCompile Include="scripts\typings\cordova\plugins\Vibration.d.ts" />
     <TypeScriptCompile Include="scripts\typings\cordova\plugins\WebSQL.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\jquery\jquery.d.ts" />
   </ItemGroup>
   <PropertyGroup>
     <TypeScriptToolsVersion>1.0</TypeScriptToolsVersion>
